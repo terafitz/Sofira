@@ -1,6 +1,6 @@
 # Welcome to Sofira - the perSOnal FInance tRAcker
 
-Hello! I am so greatful, that you found my little first python project!  
+Hello! I am so greatful, that you found my first little python project!  
 First of all: yes, the title is a wip... if you have a better one, hmu.  
 
 This whole project started because I wanted to get away from Notion to plan my finances and wanted a little project between college classes.
