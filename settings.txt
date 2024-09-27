@@ -7,6 +7,6 @@ first: 1.0, second: 2.0
 Theme:
 light
 Standart File:
-C:/Users/leobf/Seafile/Sofira/finance data/std.txt
+
 Categories:
 first, second, third
