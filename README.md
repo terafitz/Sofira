@@ -36,7 +36,7 @@ Those are your allowances; total being the whole month and so on.
 
 ## acknowledgments
 
-A special Thanks goes out to [rbende](https://github.com/rdbende/Azure-ttk-theme), for creating the beautiful azure-theme used in this project!  
+A special Thanks goes out to [rbende](https://github.com/rdbende/Azure-ttk-theme) and all involved, for creating the beautiful azure-theme used in this project!  
 
 Also a big thank-you to the beautiful people at [Flaticon](https://www.flaticon.com/), for creating all the icons used in this project.  
 In particular:
