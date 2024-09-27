@@ -1,5 +1,5 @@
 # Welcome to Sofira - the perSOnal FInance tRAcker
-***
+
 Hello! I am so greatful, that you found my little first python project!  
 First of all: yes, the title is a wip... if you have a better one, hmu.  
 
@@ -8,7 +8,7 @@ All Data is stored in *plain text*, so if you like you can just chuck your .txt 
 And - I can't stress, how important that is - pls ignore my ugly code haha.
 
 ## How to install
-***
+
 #### Requirements
 - [TKinter:](https://www.tutorialspoint.com/how-to-install-tkinter-in-python)
 - [Pillow:](https://pillow.readthedocs.io/en/stable/installation/basic-installation.html)
@@ -17,7 +17,7 @@ And - I can't stress, how important that is - pls ignore my ugly code haha.
 After both packages are installed correctly to your python, simply download Sofira and execute (double-click) sofira.py in the Main folder.
 
 ## How to use
-***
+
 #### First use
 After downloading and opening Sofira, you should see a -3 at total, a -0.10 at daily and a -0.70 at weekly. 
 Those are your allowances; total being the whole month and so on.
@@ -35,7 +35,7 @@ Those are your allowances; total being the whole month and so on.
 - Each day, the 'Daily label will be reset, the same applies to weekly and total. An expense will be subtracted from all three Allowances. There is currently no good way to delete an old expense. Sorry.
 
 ## acknowledgments
-***
+
 A special Thanks goes out to [rbende](https://github.com/rdbende/Azure-ttk-theme), for creating the beautiful azure-theme used in this project!  
 
 Also a big thank-you to the beautiful people at [Flaticon](https://www.flaticon.com/), for creating all the icons used in this project.  
