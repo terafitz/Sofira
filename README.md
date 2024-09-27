@@ -1,4 +1,4 @@
-# Welcome to Sofira - the perSOnal FInance tRAcker
+# Welcome to Sofira - the per{SO}nal {FI}nance t{RA}cker
 
 Hello! I am so greatful, that you found my first little python project!  
 First of all: yes, the title is a wip... if you have a better one, hmu.  
