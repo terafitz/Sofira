@@ -26,7 +26,7 @@ Those are your allowances; total being the whole month and so on.
 2.  Then, set all the Categories of expenses you think you'll do.
 3.  After that, go to 'set monthly expenses', delete the two entries by selecting them, and pressing 'del'
 4.  Then add your own by typing their names on the left, their amounts on the right and pressing add. Once you're done, you can close the window.
-6.  Finally, press 'create new file', name it, accept name, and press save. Your three allowances should be set correct.
+6.  Finally, press 'create new file', name it, accept name, and press save. After that, open the new file, and refresh the figures
 
 #### General use
 - To add an expense, simply press the plus-button, fill in the new window and press 'subtract'.
