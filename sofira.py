@@ -20,7 +20,7 @@ class Window(tk.Tk):
         self.settings = fh.readFile('settings.txt')
         self.menu = Menu(self, version)
         if self.settings[9][:-1] == '':
-            self.menu.create_file(filename="standart")
+            self.menu.create_file(filename="standard")
         self.finance = fd.FinanceData(self.settings[9][:-1])
 
         # Widgets
