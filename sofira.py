@@ -19,6 +19,8 @@ class Window(tk.Tk):
         self.tk.call("set_theme", theme)
         self.settings = fh.readFile('settings.txt')
         self.menu = Menu(self, version)
+        # change the settings file into JSON or similar, so you can name the configuration entries
+        # instead of "settings[9]" settings.filename or similar offers a better developer experience
         if self.settings[9][:-1] == '':
             self.menu.create_file(filename="standard")
         self.finance = fd.FinanceData(self.settings[9][:-1])
@@ -38,7 +40,7 @@ class Menu(ttk.Frame):
         self.parent = parent
         self.leftframe = ttk.Frame(self)
         self.rightframe = ttk.Frame(self)
-
+        # maybe consolidate all these lines into one object!
         ttk.Button(self.leftframe, text="Quit", command=parent.quit).pack(side="left", padx=5)
         ttk.Button(self.leftframe, text="Open...", command=self.open).pack(side="left")
         ttk.Button(self.leftframe, text="About...", command=self.showAbout).pack(side="left", padx=5)
@@ -78,6 +80,7 @@ class Menu(ttk.Frame):
         ttk.Label(frame, text=entry).pack()
 
     def open(self):
+        
         self.filename = filedialog.askopenfilename(initialdir="", title="Select file",
                                                    filetypes=(("text files", "*.txt"), ("all files", "*.*")))
         if self.filename:
@@ -180,6 +183,7 @@ daily:
         if self.abWin3 is not None and self.abWin3.winfo_exists():
             return
         self.abWin3 = tk.Toplevel()
+        # set all texts into an external file for internationalization
         self.abWin3.title("monthly expenses")
         self.abWin3.resizable(False, False)
 
